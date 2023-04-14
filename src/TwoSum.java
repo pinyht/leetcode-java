@@ -38,9 +38,8 @@ public class TwoSum {
         return new int[] { -1, -1 };
     }
 
-    /*
     // 效率偏低版本
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum1(int[] nums, int target) {
         // 用一个map记录遍历过的数,用于反查,key为数字,value为下标
         Map<Integer, Integer> record = new HashMap<>(nums.length);
         int len = nums.length;
@@ -53,11 +52,20 @@ public class TwoSum {
         }
         return new int[] { -1, -1 };
     }
-    */
 
     public static void main(String[] args) {
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
+        long start = System.currentTimeMillis();
+        int times = 10000;
+        for (int i = 0; i < times; i++) {
+            new TwoSum().twoSum(nums, target);
+        }
+        System.out.println(System.currentTimeMillis() - start);
+        for (int i = 0; i < times; i++) {
+            new TwoSum().twoSum1(nums, target);
+        }
+        System.out.println(System.currentTimeMillis() - start);
         System.out.println(Arrays.toString(new TwoSum().twoSum(nums, target)));
     }
 }
