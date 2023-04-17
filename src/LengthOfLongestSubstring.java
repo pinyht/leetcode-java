@@ -4,8 +4,7 @@ import java.util.Set;
 /**
  * 无重复字符的最长子串
  * 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
- * 题目链接:
- * https://leetcode.cn/problems/longest-substring-without-repeating-characters/
+ * 题目链接: https://leetcode.cn/problems/longest-substring-without-repeating-characters/
  */
 public class LengthOfLongestSubstring {
     // 打败100%,用数组作为字符标记,获取速度最快,双指针一次遍历求出结果
