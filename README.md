@@ -12,6 +12,8 @@
 
 [5. 最长回文子串 (中等)](src/LongestPalindrome.java)
 
+[6. N 字形变换 (中等)](src/Convert.java)
+
 [9. 回文数 (简单)](src/IsPalindrome.java)
 
 [13. 罗马数字转整数 (简单)](src/RomanToInt.java)
