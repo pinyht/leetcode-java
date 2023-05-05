@@ -16,6 +16,8 @@
 
 [7. 整数反转 (中等)](src/Reverse.java)
 
+[8. 字符串转换整数 (atoi) (中等)](src/MyAtoi.java)
+
 [9. 回文数 (简单)](src/IsPalindrome.java)
 
 [13. 罗马数字转整数 (简单)](src/RomanToInt.java)
