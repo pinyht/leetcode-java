@@ -22,4 +22,6 @@
 
 [10. 正则表达式匹配 (困难)](src/IsMatch.java)
 
+[11. 盛最多水的容器 (中等)](src/MaxArea.java)
+
 [13. 罗马数字转整数 (简单)](src/RomanToInt.java)
